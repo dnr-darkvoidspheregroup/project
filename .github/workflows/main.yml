@@ -1,10 +1,10 @@
-name: Winku
+name: Winklest
 
 on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: winku
+    runs-on: windows-latest
 
     steps:
     - name: Download Ngrok
